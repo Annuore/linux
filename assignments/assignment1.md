@@ -1,0 +1,18 @@
+### Assignment I
+- What is the path for your user's home directory? How do you change your current working directory to your user's home directory?
+- How can you find out your current working directory?
+- Create the following directory structure in your home user’s directory. Files can be empty or contain random text.
+    - ~/h1
+    - ~/h1/dir1
+    - ~/h1/dir2
+    - ~/h1/dir2/file1.txt
+    - ~/h1/dir2/file2.txt
+    - ~/h1/dir2/file3.txt
+    - ~/h1/dir3
+- Redirect your current user’s env (using printenv/env) to ~/h1/dir2/file1.txt
+- From your user’s home directory(~), copy file1.txt into dir2 using relative path in a single command. 
+- Create tmp directory inside your user's home directory. Copy dir2 and all its content into the tmp command. 
+- Rename file1.txt in the dir2 directory to ‘copy_env.txt’ (file1.txt → copy_env.txt)
+- Create a new file, perms.txt, and a new directory, admin, in your user's home directory. What are the permissions for the newly created file and directory?
+- Change file (perms.txt) permissions using numerical format in the following way: owner → all permissions, group → read and write permissions, and other → no permissions. Return original permissions for the file using symbolic format.
+- Change the permissions for the directory ‘admin' so that only the owner has read and execute access. 
